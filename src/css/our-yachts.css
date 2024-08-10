@@ -74,7 +74,7 @@
   color: #1b414b;
 }
 
-.title-models-b{display: none;}
+
 .title-models {
   display: none;
 }
@@ -189,7 +189,9 @@
   .wrap-our-yachts {
     gap: 25px;
   }
-  .title-models-b{display: unset;}
+  .title-models-b{display: none;}
+  .title-models
+   {display: unset;}
 }
 
 /* DESKTOP 1440 */
