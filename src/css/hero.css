@@ -114,11 +114,11 @@
         padding-bottom: 215px;
     }
     .hero__block {
-        max-width: 1001px;
+        max-width: 910px;
     }
     .hero__title {       
         font-size: 80px;   
-        width: 1001px;   
+        width: 100%;   
     }
     @media (min-resolution: 192dpi) {
         .hero {
