@@ -12,6 +12,7 @@
   left: 50%;
   transform: translate(-50%, 0);
   margin-top: 20px;
+  padding: 12px 20px;
 }
 .header-logo {
   font-family: 'Inter', sans-serif;
@@ -19,8 +20,6 @@
   font-size: 14px;
   letter-spacing: -0.03em;
   color: #1b414b;
-  display: block;
-  margin: 12px 0 12px 20px;
 }
 .header-menu-btn {
   width: 28px;
@@ -42,13 +41,13 @@
     width: 704px;
     height: 48px;
     margin-top: 32px;
+    padding: 4px 28px;
   }
   .header-menu-btn {
     display: none;
   }
   .header-logo {
     font-size: 20px;
-    margin: 12px 0 12px 28px;
   }
   .nav-list {
     display: flex;
@@ -80,7 +79,6 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
-    margin: 12px 12px 12px 0;
   }
   .s-m-list-item {
     width: 24px;
@@ -98,9 +96,7 @@
 @media screen and (min-width: 1280px) {
   .header-container {
     width: 1080px;
-  }
-  .header-logo {
-    margin: 12px 0 12px 30px;
+    padding: 4px 30px;
   }
 }
 @media screen and (min-width: 1440px) {
