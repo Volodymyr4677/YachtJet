@@ -187,6 +187,7 @@
     display: unset;
   }
   .wrap-our-yachts {
+    justify-content: space-between;
     gap: 25px;
   }
   .title-models-b{display: none;}
