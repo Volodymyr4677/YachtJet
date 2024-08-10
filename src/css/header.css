@@ -68,7 +68,7 @@
     border-radius: 8px;
     width: 91px;
     background-color: rgba(27, 65, 75, 0.5);
-    transition: background-color 250ms ease-in-out;
+    transition: background-color cubic-bezier(0.4, 0.2, 1);
   }
   .nav-list-link:hover,
   .nav-list-link:focus {
@@ -84,9 +84,14 @@
     width: 24px;
     height: 24px;
   }
+  .s-m-list-link {
+    display: block;
+    padding-top: 2px;
+    padding-left: 2px;
+  }
   .s-m-icon-header {
     fill: #1b414b;
-    transition: fill 250ms ease-in-out;
+    transition: fill cubic-bezier(0.4, 0.2, 1);
   }
   .s-m-icon-header:hover,
   .s-m-icon-header:focus {
