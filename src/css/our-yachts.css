@@ -163,7 +163,7 @@
     margin-bottom: 50px;
     gap: 32px;
   }
-  .title-models-b{display: unset;}
+ 
   .benetti {
     display: unset;
   }
@@ -189,6 +189,7 @@
   .wrap-our-yachts {
     gap: 25px;
   }
+  .title-models-b{display: unset;}
 }
 
 /* DESKTOP 1440 */
