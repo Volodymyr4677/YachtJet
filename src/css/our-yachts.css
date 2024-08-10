@@ -74,7 +74,7 @@
   color: #1b414b;
 }
 
-
+.title-models-b{display: none;}
 .title-models {
   display: none;
 }
@@ -160,8 +160,10 @@
     max-width: 645px;
   }
   .wrap-our-yachts {
+    margin-bottom: 50px;
     gap: 32px;
   }
+  .title-models-b{display: unset;}
   .benetti {
     display: unset;
   }
