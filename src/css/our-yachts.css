@@ -15,6 +15,7 @@
   margin: 0 auto;
   margin-bottom: 40px;
 }
+
 .wrap-our-yachts {
   display: flex;
   flex-direction: row;
@@ -26,6 +27,7 @@
 .benetti {
   display: none;
 }
+
 .belle {
   display: none;
 }
@@ -35,10 +37,12 @@
   background-color: #fbfbfb;
   border-radius: 10px;
 }
+
 .thumb-img {
   display: block;
   align-content: center;
 }
+
 .img-our-yachts {
   margin: 0 auto;
   border-radius: 24px;
@@ -55,6 +59,7 @@
   padding-top: 32px;
   padding-bottom: 16px;
 }
+
 .icon-our-yachts {
   display: block;
   margin-right: auto;
@@ -76,6 +81,7 @@
 .title-models {
   display: none;
 }
+
 .text-luxury {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -86,6 +92,7 @@
   color: #040306;
   opacity: 0.4;
 }
+
 .box-prise {
   padding-top: 16px;
   padding-left: 32px;
@@ -95,11 +102,13 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
 .list-price {
   display: flex;
   flex-direction: column;
   row-gap: 6px;
 }
+
 .items-price {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -109,11 +118,13 @@
   text-transform: uppercase;
   color: #040306;
 }
+
 .list-luxury {
   display: flex;
   flex-direction: column;
   row-gap: 6px;
 }
+
 .items-luxury {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -122,12 +133,14 @@
   letter-spacing: 0.03em;
   color: #040306;
 }
+
 .btn-id {
   display: flex;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
 }
+
 .our-btn {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
@@ -140,16 +153,17 @@
   border-radius: 15px;
   padding: 14px 32px;
 }
+
 .our-btn:hover,
 .our-btn:focus {
   color: #1b414b;
   background-color: #fbfbfb;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 /* MOBILE 375 */
 
-@media screen and (min-width: 375px) {
-}
+@media screen and (min-width: 375px) {}
 
 /* TABLET */
 @media screen and (min-width: 768px) {
@@ -161,6 +175,7 @@
     font-size: 48px;
     max-width: 645px;
   }
+
   .wrap-our-yachts {
     gap: 32px;
     padding-bottom: 50px;
@@ -169,6 +184,7 @@
   .wrap-thumb {
     width: 336px;
   }
+
   .img-our-yachts {
     width: 304px;
   }
@@ -176,14 +192,17 @@
   .benetti {
     display: unset;
   }
+
   .title-yacht-models {
     font-size: 16px;
     line-height: 1.2;
   }
+
   .text-luxury {
     font-size: 13px;
     line-height: 1.18;
   }
+
   .our-btn {
     font-size: 18px;
     line-height: 1.1;
@@ -195,15 +214,18 @@
 
 /* DESKTOP 1280 */
 @media screen and (min-width: 1280px) {
-  .container {
+  .our-ttt {
     padding-left: 49px;
   }
+
   .title-our-yachts {
     width: 714px;
   }
+
   .belle {
     display: unset;
   }
+
   .wrap-our-yachts {
     gap: 25px;
   }
@@ -211,6 +233,7 @@
   .wrap-thumb {
     width: 377px;
   }
+
   .img-our-yachts {
     width: 345px;
   }
@@ -218,9 +241,11 @@
   .title-models-b {
     display: none;
   }
+
   .title-models {
     display: unset;
   }
+
   .text-luxury {
     text-align: left;
   }
@@ -228,16 +253,14 @@
 
 /* DESKTOP 1440 */
 @media screen and (min-width: 1440px) {
-  .container {
-    padding: 0 100px;
-  }
-
   .wrap-our-yachts {
     gap: 32px;
   }
+
   .wrap-thumb {
     width: 392px;
   }
+
   .img-our-yachts {
     width: 360px;
   }
