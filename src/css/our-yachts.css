@@ -122,8 +122,11 @@
   letter-spacing: 0.03em;
   color: #040306;
 }
-.our-btn {
+.btn-id {
   display: block;
+  text-align: center;
+}
+.our-btn {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 14px;
