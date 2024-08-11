@@ -1,5 +1,4 @@
 .reviews {
-    font-family: 'Gilroy', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,8 +14,8 @@
     text-align: center;
     color: gray;
     margin-bottom: 75px;
-    font-size: 1.03em;
-    margin: 20px auto 0;
+    font-size: 0.9em;
+    margin: 25px auto 0;
     width: 571px;
 height: 36px;
 
@@ -95,7 +94,7 @@ height: 282px;
 
 @media screen and (min-width:768px) {
     .reviews {
-        margin-bottom: 80px;
+        margin-bottom: 150px;
     }
 
     .item-2 {
@@ -103,7 +102,10 @@ height: 282px;
     }
 
     .ppp {
-        margin-bottom: 40px;
+        margin-bottom: 75px;
+
+        margin: 25px auto 0;
+        
     }
 
     .reviews-list {
@@ -112,6 +114,8 @@ height: 282px;
 
     .reviews-list-item {
         width: calc((100% - 16px) / 2);
+
+        margin: 75px auto 0;
     }
 }
 
