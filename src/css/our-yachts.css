@@ -42,11 +42,10 @@
 .img-our-yachts {
   margin: 0 auto;
   border-radius: 40px;
-  margin-bottom: 29px;
   padding: 19px 16px 0;
   object-fit: cover;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 .inner-row {
@@ -55,7 +54,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 16px;
+  padding-top: 32px;
+  padding-bottom: 16px;
 }
 .icon-our-yachts {
   display: block;
@@ -63,7 +63,6 @@
   margin-left: auto;
   border-radius: 2px;
   background-color: rgba(4, 3, 6, 0.1);
-  margin-bottom: 16px;
 }
 
 .title-yacht-models {
@@ -93,7 +92,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 32px 32px;
+  padding: 16px 32px 32px;
 }
 .list-price {
   display: flex;
@@ -200,6 +199,9 @@
   .wrap-thumb {
     width: 377px;
   }
+  /* .thumb-img {
+    transform: translateX(50% -20%);
+  } */
 
   .title-models-b {
     display: none;
