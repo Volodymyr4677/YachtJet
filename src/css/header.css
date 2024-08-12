@@ -14,6 +14,11 @@
   margin-top: 20px;
   padding: 12px 20px;
 }
+
+.header-nav {
+  margin-bottom: 4px;
+}
+
 .header-logo {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
@@ -21,21 +26,26 @@
   letter-spacing: -0.03em;
   color: #1b414b;
 }
+
 .header-menu-btn {
   width: 28px;
   height: 28px;
   background-color: transparent;
   border: none;
 }
+
 .header-btn {
   fill: #1b414b;
 }
+
 .nav-list {
   display: none;
 }
+
 .s-m-list {
   display: none;
 }
+
 @media screen and (min-width: 768px) {
   .header-container {
     width: 704px;
@@ -43,18 +53,22 @@
     margin-top: 32px;
     padding: 4px 28px;
   }
+
   .header-menu-btn {
     display: none;
   }
+
   .header-logo {
     font-size: 20px;
   }
+
   .nav-list {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 4px;
   }
+
   .nav-list-link {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -70,40 +84,48 @@
     background-color: rgba(27, 65, 75, 0.5);
     transition: background-color cubic-bezier(0.4, 0.2, 1);
   }
+
   .nav-list-link:hover,
   .nav-list-link:focus {
     background: #1b414b;
   }
+
   .s-m-list {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8px;
   }
+
   .s-m-list-item {
     width: 24px;
     height: 24px;
   }
+
   .s-m-list-link {
     display: block;
     padding-top: 2px;
     padding-left: 2px;
   }
+
   .s-m-icon-header {
     fill: #1b414b;
     transition: fill cubic-bezier(0.4, 0.2, 1);
   }
+
   .s-m-icon-header:hover,
   .s-m-icon-header:focus {
     fill: #062730;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .header-container {
     width: 1080px;
     padding: 4px 30px;
   }
 }
+
 @media screen and (min-width: 1440px) {
   .header-container {
     width: 1240px;
