@@ -2,7 +2,7 @@
   background-color: #fbfbfb;
   border: 1px solid #fbfbfb;
   border-radius: 8px;
-  width: 335px;
+  width: 100%;
   height: 42px;
   display: flex;
   justify-content: space-between;
@@ -106,15 +106,18 @@
     display: block;
     padding-top: 2px;
     padding-left: 2px;
+    transition: fill cubic-bezier(0.4, 0.2, 1);
   }
 
   .s-m-icon-header {
     fill: #1b414b;
-    transition: fill cubic-bezier(0.4, 0.2, 1);
+    /* transition: fill cubic-bezier(0.4, 0.2, 1); */
   }
 
-  .s-m-icon-header:hover,
-  .s-m-icon-header:focus {
+
+
+  .s-m-list-link:hover .s-m-icon-header,
+  .s-m-list-link:focus .s-m-icon-header {
     fill: #062730;
   }
 }

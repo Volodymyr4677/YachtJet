@@ -1,6 +1,6 @@
 /* MOBILE */
 .section-our-yachts {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 .title-our-yachts {
@@ -168,7 +168,7 @@
 /* TABLET */
 @media screen and (min-width: 768px) {
   .section-our-yachts {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
   }
 
   .title-our-yachts {
@@ -187,6 +187,7 @@
 
   .img-our-yachts {
     width: 304px;
+
   }
 
   .benetti {
