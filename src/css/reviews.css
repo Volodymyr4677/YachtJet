@@ -17,7 +17,7 @@
     font-size: 0.9em;
     margin: 25px auto 0;
     width: 571px;
-height: 36px;
+    height: 36px;
 
 }
 
@@ -40,7 +40,6 @@ height: 36px;
 
 .reviews-list {
     display: flex;
-
 }
 
 .reviews-list-item {
@@ -49,12 +48,9 @@ height: 36px;
     align-items: center;
     border-radius: 24px;
     padding: 32px 36px;
-    height: auto;
     background-color: #FBFBFB;
     margin: 75px auto 0;
-width: 392px;
-height: 282px;
-
+    gap: 8px;
 
 }
 
@@ -71,17 +67,37 @@ height: 282px;
     letter-spacing: -0.02em;
     text-align: center;
     color: #0c0c0c;
-    margin-bottom: 8px;
 }
 
 .reviews-paragraph {
-    font-weight: 500;
     font-size: 16px;
-    line-height: 1.25;
     letter-spacing: -0.02em;
     text-align: center;
     color: rgba(12, 12, 12, 0.4);
 }
+
+.reviews-paragraph-hh {
+    width: 320px;
+    height: 110px;
+    font-size: 16.4px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(12, 12, 12, 0.4);
+}
+
+.reviews-paragraph-h {
+    width: 293px;
+    height: 110px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(12, 12, 12, 0.4);
+}
+
 
 .item-2 {
     display: none;
@@ -103,19 +119,40 @@ height: 282px;
 
     .ppp {
         margin-bottom: 75px;
-
         margin: 25px auto 0;
-        
+
+    }
+
+    .reviews-paragraph {
+        width: 314px;
+        height: 110px;
+        font-size: 16.8px;
+        font-weight: 400;
+        line-height: 22.4px;
+        letter-spacing: -0.02em;
+        text-align: center;
+    }
+
+    .reviews-paragraph-hh {
+        width: 296px;
+        height: 110px;
+        font-size: 16.2px;
+        font-weight: 400;
+        line-height: 22.4px;
+        letter-spacing: -0.02em;
+        text-align: center;
     }
 
     .reviews-list {
-        gap: 16px;
+        gap: 32px;
     }
 
     .reviews-list-item {
         width: calc((100% - 16px) / 2);
-
+        width: 336px;
+        height: 282px;
         margin: 75px auto 0;
+        padding: 32px 8px;
     }
 }
 
@@ -129,7 +166,28 @@ height: 282px;
     }
 
     .reviews-list {
-        gap: 20px;
+        gap: 26px;
+        padding: 32px 28px 32px 28px;
+    }
+
+    .reviews-paragraph {
+        width: 320px;
+        height: 110px;
+        font-size: 16.5px;
+        font-weight: 400;
+        line-height: 22.4px;
+        letter-spacing: -0.02em;
+        text-align: center;
+    }
+
+    .reviews-paragraph-h {
+        width: 293px;
+        height: 110px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        letter-spacing: -0.02em;
+        text-align: center;
     }
 
     .reviews-list-item {
@@ -144,16 +202,33 @@ height: 282px;
     }
 
     .reviews-section-name {
-        font-size: 1.8em;
-                max-width: 90%;
-                line-height: 1.2em;
+        font-size: 1.7em;
+        max-width: 90%;
+        line-height: 1.2em;
     }
+
 
     .ppp {
         margin-bottom: 40px;
-        font-size: 0.8em;
-                max-width: 100%;
-                line-height: 1.3em;
-                margin-top: 10px;
+        font-size: 0.76em;
+        max-width: 100%;
+        line-height: 1.3em;
+        margin-top: 10px;
+        text-align: center;
+        margin: 25px auto 0;
+    }
+
+    .reviews-list {
+        gap: 32px;
+        margin: 40px auto 0;
+    }
+
+    .reviews-paragraph {
+        font-size: 13.8px;
+        font-weight: 400;
+        line-height: 22.4px;
+        letter-spacing: -0.02em;
+        text-align: center;
+
     }
 }
