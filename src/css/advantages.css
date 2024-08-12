@@ -96,7 +96,7 @@ ol {
 
 @media screen and (min-width: 768px) {
     .advantage-box {
-        margin-bottom: 150px;
+        padding-bottom: 150px;
     }
 
     .advantages-container {
@@ -147,7 +147,7 @@ ol {
 
 @media screen and (min-width: 1280px) {
     .advantage-box {
-        padding: 0 50px;
+        /* padding: 0 50px; */
         flex-direction: row;
         gap: 32px;
     }
