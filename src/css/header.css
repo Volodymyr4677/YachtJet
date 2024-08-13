@@ -2,7 +2,7 @@
   background-color: #fbfbfb;
   border: 1px solid #fbfbfb;
   border-radius: 8px;
-  width: 100%;
+  width: 335px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,7 +10,7 @@
   top: 0;
   left: 50%;
   transform: translate(-50%, 0);
-  margin-top: 20px;
+  margin: 20px 0 0 0;
   padding: 12px 20px;
 }
 
@@ -44,7 +44,12 @@
 .s-m-list {
   display: none;
 }
-
+@media screen and (max-width: 355px) {
+  .header-container {
+    max-width: 100%;
+    margin: 20px 20px 0 20px;
+  }
+}
 @media screen and (min-width: 768px) {
   .header-container {
     width: 704px;
