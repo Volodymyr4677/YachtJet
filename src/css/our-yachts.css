@@ -39,15 +39,16 @@
 }
 
 .thumb-img {
-  display: block;
+  display: flex;
   align-content: center;
   justify-content: center;
+  padding: 16px 16px 32px;
 }
 
 .img-our-yachts {
-  margin: 16px 16px 32px 16px;
+  /* margin: 16px 16px 32px 16px; */
   border-radius: 24px;
-  max-width: 302px;
+  /* max-width: 302px; */
 }
 
 .inner-row {
@@ -187,7 +188,7 @@
   }
 
   .img-our-yachts {
-    max-width: 304px;
+    /* max-width: 304px; */
   }
 
   .benetti {
@@ -234,10 +235,10 @@
   .wrap-thumb {
     width: 377px;
   }
-
+  /* 
   .img-our-yachts {
     max-width: 345px;
-  }
+  } */
 
   .title-models-b {
     display: none;
@@ -262,7 +263,7 @@
     width: 392px;
   }
 
-  .img-our-yachts {
+  /* .img-our-yachts {
     max-width: 360px;
-  }
+  } */
 }
