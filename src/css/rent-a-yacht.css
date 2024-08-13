@@ -2,11 +2,12 @@
 
 .rent-y {
   background-color: transparent;
-  /* padding-top: 80px; */
   padding-bottom: 80px;
 }
 
-
+.rent-modal {
+  margin-bottom: 80px;
+}
 
 .rent-title {
   font-weight: 500;
@@ -21,6 +22,10 @@
   margin-bottom: 40px;
 }
 
+.modal-field-wrap {
+  margin-bottom: 18px;
+}
+
 .modal-input {
   background-color: transparent;
   width: 100%;
@@ -32,7 +37,7 @@
   font-size: 12px;
   line-height: 1.17;
   color: rgba(251, 251, 251, 0.4);
-  margin-bottom: 18px;
+
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   outline: transparent;
   /* display: flex;
@@ -71,7 +76,6 @@
   background-color: #1b414b;
   font-weight: 500;
   color: #fbfbfb;
-  margin-bottom: 80px;
 }
 
 .rent-img {
@@ -82,8 +86,12 @@
 
 @media screen and (min-width: 768px) {
   .rent-y {
-    /* padding-top: 150px; */
-    padding-bottom: 148px;
+    padding-bottom: 150px;
+  }
+
+  .rent-modal {
+    margin-bottom: 100px;
+    padding-left: 116px;
   }
 
   .rent-title {
@@ -91,7 +99,6 @@
     line-height: 1;
     letter-spacing: -0.02em;
     color: #fbfbfb;
-    padding-left: 116px;
     margin-bottom: 50px;
   }
 
@@ -100,7 +107,6 @@
   }
 
   .modal-form {
-    padding: 0 116px;
   }
 
   .modal-input {
@@ -125,7 +131,6 @@
     font-size: 18px;
     line-height: 1.1;
     letter-spacing: -0.02em;
-    margin-bottom: 100px;
   }
 }
 
@@ -133,6 +138,12 @@
   .rent-y {
     display: flex;
     flex-wrap: nowrap;
+  }
+
+  .rent-modal {
+    margin-bottom: 0px;
+    padding-left: 0px;
+    margin-left: 50px;
   }
 
   .rent-title {
@@ -143,14 +154,12 @@
     letter-spacing: -0.02em;
     color: #fbfbfb;
     padding-left: 0px;
-    margin-left: 50px;
     justify-content: start;
     margin-bottom: 50px;
   }
 
   .modal-form {
     padding: 0;
-    margin-left: 50px;
   }
 
   .rent-image {
