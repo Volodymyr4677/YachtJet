@@ -53,20 +53,20 @@ ol {
     color: #fbfbfb;
     opacity: 0.8;
     max-width: 292px;
-    max-height: 28px;
+    
 
 }
 
 .advantage-box {
     display: flex;
     flex-direction: column;
-    padding-bottom: 82px;
+    padding-bottom: 80px;
 }
 
 .advantages-photo {
     border-radius: 24px;
     width: 335px;
-    height: 424px;
+    max-height: 424px;
 }
 
 .advantages-container {
